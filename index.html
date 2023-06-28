@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" media="(max-width:675px)" href="static/phone.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <script src="static/index.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <title>Frontend Mentor | News homepage</title>
-  <link rel="stylesheet" href="/static/style.css">
+
 </head>
 
 <body>
@@ -20,6 +25,11 @@
   <header>
     <div id="logo">
       <img src="assets/images/logo.svg" alt="error loading image">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <img src="assets/images/icon-menu.svg" alt="error" id="open">
+        <!-- <img src="assets/images/icon-menu-close.svg" alt="error" id="close"> -->
+      </label>
     </div>
 
     <div id="menubar">
@@ -32,13 +42,14 @@
       </ul>
     </div>
 
+
   </header>
 
   <main>
     <div id="featured">
       <div id="featured-articles">
         <div id="featured-img">
-          <img src="/assets/images/image-web-3-desktop.jpg" alt="">
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="error loading img" id="main-img">
         </div>
         <div id="featured-content">
           <div id="title">
@@ -47,7 +58,7 @@
           <div id="para-button">
             <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.But is it really fulfilling its promise?</p>
             <div id="btn">
-              <button>READ MORE</button>
+              <button>Read More</button>
             </div>
           </div>
         </div>
@@ -115,7 +126,7 @@
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/sarthak-yadav-51a708260/">Sarthak Yadav</a>.
   </div>
 </body>
 

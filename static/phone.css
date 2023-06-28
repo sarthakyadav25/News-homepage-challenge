@@ -1,0 +1,113 @@
+/* Html and body */
+
+/* Header */
+header{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    margin-bottom: 1em;
+}
+
+header ul{
+    flex-direction: column;
+    padding :0;
+}
+
+header ul li{
+    margin-bottom: 1em;
+}
+
+#menubar{
+    width: 100%;
+}
+
+#logo{
+    width: 90%;
+}
+
+.checkbtn{
+    display: block;
+}
+
+#list-frame{
+    width: 65%;
+    position: fixed;
+    top:-1%;
+    background-color: white;
+    height: 100vh;
+    right: -100%;
+    text-align: left;
+    transition: all .5s;
+}
+
+#list-frame li:first-child{
+    margin-top: 10em;
+}
+
+#list-frame li{
+    margin-bottom: 2em;
+    color: rgb(0, 0, 0);
+}
+
+/* #close{
+    display:none;
+} */
+
+
+
+
+
+
+/* Featured */
+
+main{
+    width:90%;
+}
+
+#featured{
+    flex-direction: column;
+}
+
+
+
+#featured-articles{
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+#title{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#para-button{
+    width: 100%;
+}
+
+#para-button p{
+    margin-bottom: 2em;
+}
+
+#new-articles{
+    width: 100%;
+}
+
+
+
+#featured-content{
+    flex-direction: column;
+}
+
+/* Upcoming */
+
+#upcoming{
+    flex-direction: column;
+}
+
+.upcoming-posts{
+    width: 100%;
+    margin-bottom: 2em;
+}

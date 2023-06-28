@@ -26,9 +26,9 @@ body{
 }
 
 #new-articles h3{
-    font-size: 2.5rem;
-    margin-left: 0.6em;
-    color:hsl(35, 77%, 62%);
+    font-size: 2rem;
+    margin: 0.8em 0.5em;
+    color:hsl(35, 77%, 62%)
 }
 
 .new-posts h4{
@@ -53,11 +53,17 @@ body{
 
 header{
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 4em;
     margin-bottom: 3em;
+}
+
+#logo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #list-frame{
@@ -78,9 +84,25 @@ header{
     color:hsl(5, 85%, 63%);
 }
 
+#menubar{
+    display: flex;
+}
+
+.checkbtn{
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1.5em;
+    display: none;
+    z-index: 1;
+}
+
+#check{
+    display: none;
+}
+
 /* Main */
 main{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -94,13 +116,13 @@ main{
 
 
 #featured-articles{
-    width: 71%;
+    width: 67%;
 }
 
 #new-articles{
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
-    width: 27%;
+    width: 30%;
 }
 
 #featured-articles img{
@@ -110,6 +132,7 @@ main{
 #featured-content{
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 
 }
 
@@ -124,9 +147,11 @@ main{
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    padding: 2.8em 0;
+    margin:0;
     color: hsl(236, 13%, 42%);
 }
+
+
 
 #new-articles{
     display: flex;
@@ -137,15 +162,17 @@ main{
 
 
 #title h1{
-    font-size: 4rem;
+    font-size: 3rem;
+    margin:0;
 }
 
 #para-button button{
     padding: 1em 3em;
-    background-color: rgb(251, 75, 43);
+    background-color: hsl(5, 85%, 63%);
     border: none;
     color: hsl(36, 100%, 99%);
     cursor: pointer;
+    text-transform:uppercase;
 }
 
 #para-button button:hover{
@@ -153,13 +180,14 @@ main{
 }
 
 .new-posts{
-    margin: 0 1em;
+    margin: 0.5em 1em;
     border-bottom: 1px solid;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
 .new-posts:last-of-type{
     border:0;
+    padding-bottom:0.8em;
 }
 
 .new-posts h4:hover{
@@ -187,7 +215,7 @@ main{
 
 .upcoming-posts{
     display: flex;
-    width: 27%;
+    width: 30%;
 }
 
 .upcoming-img img{
@@ -213,9 +241,9 @@ main{
 /* Footer */
 .attribution { 
     font-size: 11px; text-align: center; 
-    background-color:brown;
+    background-color:hsl(5, 85%, 63%);
     color: white;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: yellow;
 }
