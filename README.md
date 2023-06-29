@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Dekstop](/output/dekstop_design.JPG)
+![Dekstop](./output/dekstop_design.jpg)
 
-![Mobile](/output/mobile_design.JPG)
+![Mobile](./output/mobile_design.jpg)
 
 
 ### Links
