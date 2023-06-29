@@ -6,10 +6,12 @@ const trigger = ()=>{
     if (checkbox.checked){
         ulist.style = "right:0;";
         openbar.src = "../assets/images/icon-menu-close.svg"
+        openbar.style = "position:fixed; right:1em;"
     }
     else{
         ulist.style = "right:-100;";
         openbar.src = "../assets/images/icon-menu.svg"
+        openbar.style = "position:none;"
     }
     
 }

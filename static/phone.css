@@ -1,4 +1,7 @@
 /* Html and body */
+html{
+    scroll-behavior: smooth;
+}
 
 /* Header */
 header{
@@ -35,7 +38,7 @@ header ul li{
 #list-frame{
     width: 65%;
     position: fixed;
-    top:-1%;
+    top:-2%;
     background-color: white;
     height: 100vh;
     right: -100%;
