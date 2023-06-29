@@ -25,9 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Dekstop](./output/dekstop_design.jpg)
+![Dekstop](https://github.com/sarthakyadav25/News-homepage-challenge/assets/104986621/8cdba3ba-b5f2-45a8-a193-357419749d46)
 
-![Mobile](./output/mobile_design.jpg)
+![Mobile](https://github.com/sarthakyadav25/News-homepage-challenge/assets/104986621/faf189a0-7f5b-4e18-b16a-7f1ccb260d0b)
+
 
 
 ### Links
