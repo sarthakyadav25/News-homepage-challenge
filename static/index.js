@@ -4,7 +4,7 @@ const trigger = ()=>{
     const openbar = document.getElementById('open');
     // const closebar = document.getElementById('close');
     if (checkbox.checked){
-        ulist.style = "right:0; box-shadow: -300px 4px 600px 10px;";
+        ulist.style = "right:0;";
         openbar.src = "../assets/images/icon-menu-close.svg"
         openbar.style = "position:fixed; right:1em;"
     }
