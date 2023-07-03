@@ -2,16 +2,19 @@ const trigger = ()=>{
     const checkbox = document.getElementById("check");
     const ulist = document.getElementById('list-frame');
     const openbar = document.getElementById('open');
+    const overlay = document.getElementById("overlay");
     // const closebar = document.getElementById('close');
     if (checkbox.checked){
         ulist.style = "right:0;";
         openbar.src = "../assets/images/icon-menu-close.svg"
         openbar.style = "position:fixed; right:1em;"
+        overlay.style.display = "block";
     }
     else{
         ulist.style = "right:-100;";
         openbar.src = "../assets/images/icon-menu.svg"
         openbar.style = "position:none;"
+        overlay.style.display = "none";
     }
     
 }

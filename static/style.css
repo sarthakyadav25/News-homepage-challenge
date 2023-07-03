@@ -96,7 +96,7 @@ header{
     cursor: pointer;
     line-height: 1.5em;
     display: none;
-    z-index: 1;
+    z-index: 3;
 }
 
 #check{
